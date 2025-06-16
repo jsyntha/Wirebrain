@@ -1,0 +1,17 @@
+C:\Users\aciph\Desktop\Wirebrain\Wirebrain\bin\Debug\net8.0\Wirebrain.exe
+C:\Users\aciph\Desktop\Wirebrain\Wirebrain\bin\Debug\net8.0\Wirebrain.deps.json
+C:\Users\aciph\Desktop\Wirebrain\Wirebrain\bin\Debug\net8.0\Wirebrain.runtimeconfig.json
+C:\Users\aciph\Desktop\Wirebrain\Wirebrain\bin\Debug\net8.0\Wirebrain.dll
+C:\Users\aciph\Desktop\Wirebrain\Wirebrain\bin\Debug\net8.0\Wirebrain.pdb
+C:\Users\aciph\Desktop\Wirebrain\Wirebrain\obj\Debug\net8.0\Wirebrain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\aciph\Desktop\Wirebrain\Wirebrain\obj\Debug\net8.0\Wirebrain.AssemblyInfoInputs.cache
+C:\Users\aciph\Desktop\Wirebrain\Wirebrain\obj\Debug\net8.0\Wirebrain.AssemblyInfo.cs
+C:\Users\aciph\Desktop\Wirebrain\Wirebrain\obj\Debug\net8.0\Wirebrain.csproj.CoreCompileInputs.cache
+C:\Users\aciph\Desktop\Wirebrain\Wirebrain\obj\Debug\net8.0\Wirebrain.dll
+C:\Users\aciph\Desktop\Wirebrain\Wirebrain\obj\Debug\net8.0\refint\Wirebrain.dll
+C:\Users\aciph\Desktop\Wirebrain\Wirebrain\obj\Debug\net8.0\Wirebrain.pdb
+C:\Users\aciph\Desktop\Wirebrain\Wirebrain\obj\Debug\net8.0\Wirebrain.genruntimeconfig.cache
+C:\Users\aciph\Desktop\Wirebrain\Wirebrain\obj\Debug\net8.0\ref\Wirebrain.dll
+C:\Users\aciph\Desktop\Wirebrain\Wirebrain\bin\Debug\net8.0\CsvHelper.dll
+C:\Users\aciph\Desktop\Wirebrain\Wirebrain\obj\Debug\net8.0\Wirebrain.csproj.AssemblyReference.cache
+C:\Users\aciph\Desktop\Wirebrain\Wirebrain\obj\Debug\net8.0\Wirebrain.csproj.Up2Date
