@@ -23,9 +23,12 @@ namespace Wirebrain
                 if (input == "exit")
                     break;
 
-                if (InputHandler.dict.ContainsKey(input))
+                LogAnalyser analyser = new LogAnalyser();
+                analyser.Analyse();
+
+                if (InputHandler.Dict.ContainsKey(input))
                 {
-                    string response = InputHandler.dict[input]();
+                    string response = InputHandler.Dict[input]();
                     Console.WriteLine(response);
                     logger.LogMessage("memory.csv", response);
                 }

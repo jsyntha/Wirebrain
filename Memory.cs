@@ -18,25 +18,28 @@ namespace Wirebrain
     {
         public void LogMessage(string filePath, string message)
         {
-            // check for csv
             filePath = "memory.csv";
-            if(!File.Exists(filePath))
+
+            using (var writer = new StreamWriter(filePath, append: true))
+            using (var csv = new CsvWriter(writer, CultureInfo.InvariantCulture))
             {
-                File.Create(filePath).Close();
+                if (new FileInfo(filePath).Length == 0)
+                {
+                    csv.WriteHeader<MemoryLog>();
+                    csv.NextRecord();
+                }
+
+                MemoryLog log = new MemoryLog
+                {
+                    Message = message,
+                    Timestamp = DateTime.Now
+                };
+
+                csv.WriteRecord(log);
+                csv.NextRecord();
             }
-            // log it (timestamp + message)
-            MemoryLog log = new MemoryLog();
-            log.Message = message;
-            log.Timestamp = DateTime.Now;
-
-            StreamWriter writer = new StreamWriter(filePath, append: true);
-            CsvWriter csv = new CsvWriter(writer, CultureInfo.InvariantCulture);
-
-            csv.WriteRecord(log);
-            csv.NextRecord();
-
-            writer.Close();
         }
+
         // Rough idea
         // We will constantly log the chat - logs.csv?
         // Log ever user input (Console.Readline() -> csv).
